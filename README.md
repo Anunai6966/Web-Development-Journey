@@ -18,6 +18,6 @@ Hey there! Welcome to my web development journey repository. Here, I'll be shari
 I’m always learning and improving, so feel free to check out my progress!  
 
 🔗 [LinkedIn](https://www.linkedin.com/in/anunai/)  
-🔗  
+  
 
 ⭐ Star this repo if you want to follow along with my journey!  
