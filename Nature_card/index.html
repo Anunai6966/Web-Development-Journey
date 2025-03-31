@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Exercise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+      .box {
+        width: 400px;
+        height:675px ;
+        border: 2px solid black;
+        margin: 10px auto;
+        text-align: justify;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 20px;
+      }
+      .box img {
+        height:475px;
+        /* width: 390px; */
+        object-fit: cover;
+        padding: 8px;
+        border-radius: 20px;
+      }
+      .box2 {
+        padding: 5px 15px;
+        background-color: rgba(0, 0, 0, 0.05);
+        font-size: 12px;
+        font-weight: 500;
+        color: gray;
+        border: gray;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .box button {
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: rgba(45, 130, 215, 0.47);
+        color: BLUE;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+      }
+      .box button:hover {
+        background-color: rgba(45, 130, 215, 0.7);
+      }
+      .box2:hover {
+        background-color: rgba(45, 130, 215, 0.1);
+        color: black;
+        scale: 1.1;
+      }
+      .tags {
+        display: flex;
+        justify-content: start;
+        gap: 8px;
+        margin-bottom: 10px;
+      }
+      .button_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="ComfyUI_00031_.png" alt="lake view" />
+      <div class="tags">
+        <div class="box2">Nature</div>
+        <div class="box2">Lake</div>
+      </div>
+
+      <h2>Embrace the Serenity of Nature</h2>
+      <p>
+        Spending time in nature, especially near lakes and mountains, helps
+        reduce stress and boosts mental well-being. 🌿
+      </p>
+      <div class="button_container"><button>Read More</button></div>
+    </div>
+  </body>
+</html>
